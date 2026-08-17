@@ -145,8 +145,8 @@ class Inline:
                 )
             ],
             [
-                self.ikb(text=lang["help"], callback_data="help", style=enums.ButtonStyle.SUCCESS),
-                self.ikb(text=lang["language"], callback_data="language", style=enums.ButtonStyle.SUCCESS),
+                self.ikb(text=lang["help"], callback_data="help"),
+                self.ikb(text=lang["language"], callback_data="language"),
             ],
             [
                 self.ikb(text=lang["support"], url=config.SUPPORT_CHAT),
