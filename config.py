@@ -11,7 +11,7 @@ class Config:
         self.BOT_TOKEN = getenv("BOT_TOKEN", "8933764200:AAHZlADFBHHyKdy1-Y_qfvxrWxUyAEWddX4")
         self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", -1005074166605))
+        self.LOGGER_ID = int(getenv("LOGGER_ID", -1003150808065))
         self.OWNER_ID = int(getenv("OWNER_ID", 7916680074))
 
         self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60)) * 60
